@@ -1,0 +1,54 @@
+// Tarea 5
+//
+Programa 1- Error en línea 3: En lugar de 'void' debe ser 'int'.
+
+Programa 2- Sin ningun error salida en : "Hola Mundo"
+
+Programa 3- Error en línea 4: En lugar de 'void' debe ser 'int'.
+            Error en línea 7: La cadena es más grande que el arreglo.
+
+Programa 4- Error en línea 4: En lugar de 'void ' debe ser 'int'
+
+Programa 5- Sin ningun error salida en: a = 8, b = 24
+
+Programa 6- Sin ningun error salida en: 15
+
+Programa 7- Sin ningun error salida en: a = 6, b = 6
+
+Programa 8- Sin ningun error salida en: 1
+
+Porgrama 9- Sin ningun error salida en: 0
+
+Programa 10- Sin ningun error salida en: mo
+
+Programa
+#include "stdafx.h"
+#include <iostream>
+#include <math.h>
+#include <stdio.h>
+
+// Con este programa endremos el area y el perimetro de una circunferencia
+//
+
+using namespace std;
+
+int main() {
+
+	system("color 0A");
+
+	float A = 0, P = 0, R = 0, Pi = 3.1416; 
+
+	cout << "Ingrese el valor del Radio: ";
+	cin >> R;
+
+	A = pow(R,2) * Pi;
+
+	P = 2 * Pi * R;
+
+	cout << "El area es: " << A << endl;
+	
+	cout << "El perimetro es: " << P << endl;
+	
+	system("pause");
+
+}
