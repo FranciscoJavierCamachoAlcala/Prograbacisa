@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <string>
 using namespace std;
 
 int o;
@@ -34,7 +35,7 @@ void buscarNombre();
 
 void modificar();
 
-void main() {
+int main() {
 	locale::global(locale("spanish"));
 	system("color 0A");
 
@@ -42,7 +43,7 @@ void main() {
 
 	system("Pause");
 
-    menu();
+	menu();
 
 }
 
@@ -54,14 +55,14 @@ void menu() {
 
 	cout << "Qué quieres hacer" << endl;
 	cout << "1. Registrar a un alumno \n2. Mostrar a todos los alumnos \n3. Buscar a un alumno \n4. Buscar por nombre \n9. Salir del programa" << endl;
-	cout << "0. Manual de usuario" << endl; 
+	cout << "0. Manual de usuario" << endl;
 
 
 	cin >> opcion;
 
 
 	if (opcion == 0) {
-		 manual();
+		manual();
 	}
 	else if (opcion == 1) {
 
@@ -73,7 +74,7 @@ void menu() {
 	else if (opcion == 3) {
 		buscar();
 	}
-	else if (opcion == 3) {
+	else if (opcion == 4) {
 		buscarNombre();
 	}
 }
@@ -84,14 +85,14 @@ void manual() {
 	cout << "Bienvenido al manual de usuario, aqui te ayudaremos a identificar las opciones de la Base de datos escolar" << endl;
 
 	cout << "¿Quieres regresar al menu?" << endl;
-    cout << "1. Sí \n2. No" << endl;
+	cout << "1. Sí \n2. No" << endl;
 	cin >> volver;
 
 	if (volver == 1) {
-		 menu();
+		menu();
 	}
 	else {
-		 manual();
+		manual();
 	}
 }
 void registrar() {
@@ -125,10 +126,10 @@ void registrar() {
 	cin >> volver;
 
 	if (volver == 1) {
-		 menu();
+		menu();
 	}
 	else {
-		 registro();
+		registrar();
 	}
 
 }
