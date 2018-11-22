@@ -1,7 +1,7 @@
-# UNIVERSIDAD AUT”NOMA DE NUEVO LE”N FACULTAD DE CIENCIAS FÕSICO MATEM¡ICAS
-## LICENCIADO EN MULTIMEDIA Y ANIMACI”N DIGITAL
+# UNIVERSIDAD AUT√ìNOMA DE NUEVO LE√ìN FACULTAD DE CIENCIAS F√çSICO MATEM√ÅICAS
+## LICENCIADO EN MULTIMEDIA Y ANIMACI√ìN DIGITAL
 
-### Creador:Francisco Javier Camacho Alcal·
+### Creador:Francisco Javier Camacho Alcal√°
 ...
 # Introduccion
 Este Programa fue creado para llevar un registro de alumnos, se recomienda su uso para escuelas.
@@ -26,7 +26,7 @@ Escriba el numero de la opcion que desee realizar:_
 Una vez seleccionado el numero, podras accerder a los apartados dentro de estos.
 ...
 ### 1: Interactuar con lista de alumnos
-Algo com˙n es que quierer ingresar a la opcion "1: Interactuar con lista de alumnos", saldra la suiente leyenda si no cuentas con ningun alumno regustrado:
+Algo com√∫n es que quierer ingresar a la opcion "1: Interactuar con lista de alumnos", saldra la suiente leyenda si no cuentas con ningun alumno regustrado:
 
 ## No existen datos en la lista de alumnos
 
@@ -64,7 +64,7 @@ Una vez seleccionado el numero, podras accerder a los apartados de edicion dentr
 
 3: Direccion Del Alumno
 
-øQue dato desea modificar?:_
+¬øQue dato desea modificar?:_
 
 Una vez seleccionado el numero, podras accerder a los apartados de edicion dentro de estos.
 ...
@@ -84,7 +84,7 @@ Informacion Del Alumno
 
 5: Matricula
 
-øQue informacion desea modificar?:_
+¬øQue informacion desea modificar?:_
 
 Una vez seleccionado el numero, podras accerder a los apartados de edicion dentro de estos, podiendo editar cualquiera de estos datos ingresando la nueva informacion.
 ...
@@ -100,7 +100,7 @@ Calificaciones Del Alumno
 
 3: Calificacion Del Parcial 3
 
-øQue calificacion desea modificar?:_
+¬øQue calificacion desea modificar?:_
 
 Una vez seleccionado el numero, podras accerder a los apartados de edicion dentro de estos, podiendo editar cualquiera de estos datos ingresando la nueva informacion.
 ...
@@ -116,7 +116,7 @@ Direccion Del Alumno
 						
 3: Colonia
 
-øQue dato desea modificar?:_
+¬øQue dato desea modificar?:_
 
 Una vez seleccionado el numero, podras accerder a los apartados de edicion dentro de estos, podiendo editar cualquiera de estos datos ingresando la nueva informacion.
 ...
@@ -127,9 +127,9 @@ Se mostrara toda la lista de alumnos que tiene registrados, luego se le pedria q
 
 Escriba el numero de alumno que desea eliminar:_
 
-Una vez ingresado el numero, se le pedira estar seguro de su desiciÛn de esta manera:
+Una vez ingresado el numero, se le pedira estar seguro de su desici√≥n de esta manera:
 
-øSeguro que desea eliminar el contacto seleccionado?:_
+¬øSeguro que desea eliminar el contacto seleccionado?:_
 1: Si o 2: No
 Opcion seleccionada:_
 
@@ -150,7 +150,7 @@ Apellido:_
 
 Correo Electronico:_ "Todo correo electronico debera contar con solo un @ y .com, al final"
 
-Telefono:_ "Todo telefono no podra ser de menos de 8 dÌgitos, pero no mayor de 12 dÌgitos"
+Telefono:_ "Todo telefono no podra ser de menos de 8 d√≠gitos, pero no mayor de 12 d√≠gitos"
 
 Matricula:_ "Toda matricula debe asigarse desde aqui"
 
@@ -174,4 +174,4 @@ Colonia:_
 
 # Esc: Guardar y Salir
 
-Con esta opciÛn, se deben guardar todos los datos registrados en un archivo de texto, saliendo del programa
+Con esta opci√≥n, se deben guardar todos los datos registrados en un archivo de texto, saliendo del programa
